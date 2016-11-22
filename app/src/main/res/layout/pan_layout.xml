@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="30dp"
+    android:id="@+id/layout_pan"
+    android:gravity="center"
+    >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_title"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="歌曲"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+             />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:src="@drawable/game_disc"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/game_disc_light"
+            android:layout_gravity="center"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_play_start"
+            android:background="@drawable/play_button"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:src="@drawable/index_pin"
+            android:layout_width="50sp"
+            android:layout_height="140sp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="right"
+            />
+    </FrameLayout>
+</LinearLayout>
